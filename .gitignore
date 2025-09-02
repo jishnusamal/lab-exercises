@@ -1,0 +1,17 @@
+# Ignore all files without a dot (no extension)
+*
+
+# Ignore all files without an extension (likely compiled executables)
+[!.]*
+
+# But un-ignore all files with an extension
+!*.c
+
+# Un-ignore important project files
+!README
+!LICENSE
+!.gitignore
+
+
+# But keep directories
+!*/

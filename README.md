@@ -1,4 +1,4 @@
-# Lab Practices
+# Lab Exercises
 
 ## Description
 This repository contains my solutions and work for Semester - I Lab exercises.

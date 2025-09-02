@@ -8,7 +8,7 @@
 !*.c
 
 # Un-ignore important project files
-!README
+!README.md
 !LICENSE
 !.gitignore
 

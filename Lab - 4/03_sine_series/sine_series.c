@@ -3,7 +3,7 @@
 
 int factorial (int n);
 int main() {
-    float x, sine = 0.0f, m = 1.0f;
+    float x, sine = 0, m = 1;
     int n;
 
     printf("Enter x: ");

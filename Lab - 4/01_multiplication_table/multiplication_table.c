@@ -3,11 +3,11 @@
 int main(){
     int n,k;
 
-    printf("Enter n: ");
-    scanf("%d", &n);
-
-    printf("Enter k: ");
+    printf("Enter tables to write: ");
     scanf("%d", &k);
+
+    printf("Enter steps: ");
+    scanf("%d", &n);
 
     for (int i = 1; i<=n; i++) {
         for (int j = 1; j<=k; j++) {

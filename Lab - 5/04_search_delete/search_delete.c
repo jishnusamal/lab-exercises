@@ -22,8 +22,9 @@ int main(){
         }
     }
 
-    for (int i = pos; i < n-1; i++) {
-            a[i] = a[i+1];
+    for (int j = pos; j < n-1; j++) {
+        a[j] = a[j+1];
+        printf("%d %d\n", a[j], a[j+1]);
     }
     n-=1;
 

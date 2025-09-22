@@ -1,16 +1,14 @@
 #include <stdio.h>
 
 int main(){
-    int n, k, pos=0;
-    n=5;
-    int a[20] = {23, 47, 56, 65, 16};
-    /*printf("Enter no. of elements: ");
+    int n, k, a[20], pos = 0;
+    printf("Enter no. of elements: ");
     scanf("%d", &n);
 
     printf("Enter %d elements: ", n);
     for (int i = 0; i < n; i++) {
         scanf("%d", &a[i]);
-    }*/
+    }
 
 
     printf("Enter element to search: ");
@@ -19,12 +17,12 @@ int main(){
     for (int i = 0; i < n; i++, pos++) {
         if ( a[i] == k) {
             printf("Element found at %d\n", pos+1);
+            break;
         }
     }
 
     for (int j = pos; j < n-1; j++) {
         a[j] = a[j+1];
-        printf("%d %d\n", a[j], a[j+1]);
     }
     n-=1;
 

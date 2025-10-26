@@ -2,9 +2,9 @@
 #include <math.h>
 
 int main() {
-    int n, m = 2;
+    int n, m = 4;
 
-    printf("Enter no of students (row col): ");
+    printf("Enter no of students: ");
     scanf("%d",&n);
 
     int students_marks[m][n];

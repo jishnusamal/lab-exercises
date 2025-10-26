@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main() {
-    int m, n, trace = 0, norm = 0, op, n1, n2, temp;
+    int m, n, op, n1, n2, temp;
 
     printf("Enter dimensions (row col): ");
     scanf("%d %d", &m, &n);

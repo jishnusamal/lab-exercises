@@ -19,13 +19,10 @@ int main() {
 
     for (int i = 0; i<m; i++) {
         trace += a[i][i];
-    }
-    printf("Trace: %d\n", trace);
-
-    for (int i = 0; i<m; i++) {
         for (int j = 0; j<n; j++) {
             norm_sum += pow(a[i][j], 2);
         }
     }
+    printf("Trace: %d\n", trace);
     printf("Norm: %.2f", sqrt(norm_sum));
 }

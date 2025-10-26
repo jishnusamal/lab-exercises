@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main() {
-    int n, trace = 0, norm = 0, m = 2;
+    int n, m = 2;
 
     printf("Enter no of students (row col): ");
     scanf("%d",&n);

@@ -16,5 +16,5 @@ int main() {
         }
     }
 
-    (is_palindrome == 1) ? printf("It is a palindrome!", str): printf("Oops! It is not a palindrome!", str);
+    (is_palindrome == 1) ? printf("It is a palindrome!"): printf("Oops! It is not a palindrome!");
 }

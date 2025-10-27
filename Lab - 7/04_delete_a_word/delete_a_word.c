@@ -16,25 +16,6 @@ int main() {
     int n = strlen(str);
     int m = strlen(substr);
 
-    // Searching for first occurence of substr
-    for (int i = 0; i <= n - m; i++) {
-        int j;
-        for (j = 0; j < m; j++) {
-            if (str[i + j] != substr[j]) {
-                break;
-            }
-        }
-        if (j == m) {
-            index = i;
-        }
-    }
-
-    int k = index + m - 1;
-    //printf("%d", k);
-    for (int i = index; i < k; i++){
-        str[i] = " ";
-    }
-
 
     puts(str);
 }

@@ -51,7 +51,7 @@ int main() {
 
 
     findTopper(n, average);
-    printf("%d Topper: %s", average[0][0], student_names[average[0][0]-1]);
+    printf("Topper: %s", student_names[average[0][0]-1]);
 
     
 }

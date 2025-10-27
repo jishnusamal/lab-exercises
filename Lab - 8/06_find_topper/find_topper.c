@@ -89,7 +89,7 @@ int findTopper(int n, int average[2][n]) {
         int tempRoll = average[0][i];
         average[0][last] = average[0][minIndex];
         average[0][minIndex] = tempRoll;
-        }
+    }
 
-        return average[0][0];
+    return average[0][0];
 }

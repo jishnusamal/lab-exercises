@@ -29,22 +29,22 @@ int main() {
 
     averageCalc(n, p, students_marks, average);
 
-        for (int j = 0; j < n; j++) {
-            printf("Student %d - Marks: %d, %d, %d | Avg: %d\n",
-               students_marks[0][j],
-               students_marks[1][j],
-               students_marks[2][j],
-               students_marks[3][j],
-               average[1][j]
-            );
-        }
+    for (int j = 0; j < n; j++) {
+        printf("Student %d - Marks: %d, %d, %d | Avg: %d\n",
+            students_marks[0][j],
+            students_marks[1][j],
+            students_marks[2][j],
+            students_marks[3][j],
+            average[1][j]
+        );
+    }
 }
 
 void averageCalc(int n, int p, int students_marks[4][n], int average[2][n]) {
-        for (int j = 0; j < n; j++) {
-            int total = students_marks[1][j] + students_marks[2][j] + students_marks[3][j];
-            average[0][j] = students_marks[0][j];
-            average[1][j] = total / 3;
-            
-        }
+    for (int j = 0; j < n; j++) {
+        int total = students_marks[1][j] + students_marks[2][j] + students_marks[3][j];
+        average[0][j] = students_marks[0][j];
+        average[1][j] = total / 3;
+        
+    }
 }
